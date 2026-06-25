@@ -133,11 +133,7 @@ uplift-project/
 ├── app.py                          # Interactive Streamlit demo
 ├── data/
 │   └── (place hillstrom.csv here — see Setup)
-└── src/
-    ├── 01_data_loading_eda.py       # Phase 1: randomization check
-    ├── 02_baseline_naive.py         # Phase 2: naive baseline, proves it fails
-    ├── 03_uplift_models.py          # Phase 3: S/T-Learner + Class Transformation
-    └── 04_interpretation_business.py # Phase 4: surrogate tree + $ business case
+
 ```
 
 ## Setup
