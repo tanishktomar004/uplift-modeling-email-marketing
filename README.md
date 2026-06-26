@@ -171,12 +171,4 @@ and run cell by cell.
 - Use `dowhy` to formally validate causal assumptions (unconfoundedness,
   SUTVA) beyond the descriptive randomization check in Phase 1
 
-## Resume Summary
 
-> Built an end-to-end uplift modeling pipeline (S-Learner, T-Learner, Class
-> Transformation via scikit-uplift) on a 64K-customer randomized email
-> campaign, proving that standard propensity-based targeting captures
-> minimal incremental value while the top-decile uplift segment drives 90%
-> of real campaign lift. Translated model output into a deployable business
-> case (2.03x ROI at optimal targeting vs. 1.03x for blanket targeting) and
-> shipped an interactive Streamlit tool for live customer scoring.
